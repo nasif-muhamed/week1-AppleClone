@@ -1,0 +1,81 @@
+/*footer mainly devided into 3 parts*/
+footer{
+  width: 100%;
+  padding: 0 22px 11px 44px;
+  background-color: rgb(245, 245, 247);
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  li{
+    padding-bottom: 11px;
+  }
+}
+.footer_container{
+  max-width: 980px;
+  line-height: 1.333373;
+  display: flex;
+  flex-direction: column;
+  font-size: 11.7px;
+}
+
+/* 1. Desclaimer to the user */
+.conditions_apply{
+  padding: 17px 0px 11px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  a{color: rgba(0, 0, 0, 0.7);}
+}
+
+.table_of_contents{
+  display: flex;
+}
+
+/* 2. menu of useful links to products and services */
+.table{
+  width: 20% ;
+  h3{
+    background-color: rgb(245, 245, 247);
+    padding: 20px 0 0 0;
+    font-size: 11.7px;
+    font-weight: 600;
+    margin-bottom: .8em;
+  }
+  li{
+    padding: 0 0 11px 0;
+    background-color: rgb(245, 245, 247);
+  }
+}
+
+/* 3. end of footer. Containing copyright part */
+.footer_end{
+  padding-top: 37px;
+}
+.call_apple{
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  a{color: rgb(0, 102, 204);}
+}
+.country{
+  margin-top:20px;
+  float: right;
+}
+.copyright{
+  padding: 20px 0;
+  display: flex;
+  gap: 30px;
+  li{
+    float: left;
+    padding: 0 3px;
+  }
+}
+
+/* common elements in footer*/
+.table a,
+.copyright a,
+.country a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+.table ul a:hover,
+.copyright a:hover{
+  text-decoration: underline;
+}
